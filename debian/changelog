@@ -1,6 +1,5 @@
-eigency (1.77-1) UNRELEASED; urgency=low
+eigency (1.77-1) bionic; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial release.
 
  -- KERN packaging <packaging@kernsuite.info>  Wed, 29 Aug 2018 19:51:32 +0200
