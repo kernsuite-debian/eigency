@@ -1,0 +1,28 @@
+Source: eigency
+Section: python
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9),
+               cython,
+               dh-python,
+               python-all,
+               python3-all,
+               python3-setuptools,
+               python-setuptools-scm,
+               python3-setuptools-scm
+Standards-Version: 3.9.8
+Homepage: https://github.com/wouterboomsma/eigency
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-eigency
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python2 interface between the numpy arrays and Eigen C++ library 
+
+Package: python3-eigency
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description:  Python3 interface between the numpy arrays and Eigen C++ library

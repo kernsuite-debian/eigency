@@ -1,0 +1,5 @@
+.eggs/
+*.egg-info/
+eigency/conversions.cpp
+eigency/conversions_api.h
+eigency/core.cpp
